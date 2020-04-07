@@ -2,7 +2,9 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+中序遍历，然后构成一条只有右子树的树
+ */
 public class OnlyRightTree {
     public static void main(String[] args) {
         Integer[] list={5,3,6,2,4,null,8,1,null,null,null,null,null,7,9};
